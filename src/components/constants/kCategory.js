@@ -1,0 +1,102 @@
+const categoryList=[
+    {
+        name:"Action",
+        slug:"action",
+        image_background:"https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg",
+        
+    },
+    {
+        name:"Adventure",
+        slug:"adventure",
+        image_background:"https://media.rawg.io/media/games/929/9295e55ce69cf5337c567983cf8b4137.jpeg",
+       
+    },
+    {
+        name:"Arcade",
+        slug:"arcade",
+        image_background:"https://media.rawg.io/media/games/c32/c32fd6c512c48b3e2f10686a6e06690d.jpg",
+       
+    },
+    {
+        name:"Board Games",
+        slug:"board-games",
+        image_background:"https://media.rawg.io/media/games/22c/22ce391b3096cd46eadae1a890624f39.jpg"
+    },
+    {
+        name:"Card",
+        slug:"card",
+        image_background:"https://media.rawg.io/media/screenshots/e7a/e7ad0bc3b056a54f2a6451b58950769d.jpeg"
+    },
+    {
+        name:"Casual",
+        slug:"casual",
+        image_background:"https://media.rawg.io/media/screenshots/112/112c9ecfe850e318bb999660361782bb.jpeg"
+    },
+    {
+        name:"Educational",
+        slug:"educational",
+        image_background:"https://media.rawg.io/media/screenshots/31c/31c38375c184be8ee616c7df5cff8e0d.jpg"
+    },
+    {
+        name:"Family",
+        slug:"family",
+        image_background:"https://media.rawg.io/media/games/160/160795b9df9ba64ca8f054509b32cd6e.jpg"
+    },
+    {
+        name:"Fighting",
+        slug:"fighting",
+        image_background:"https://media.rawg.io/media/screenshots/6e0/6e03e12bf716fa3adeb3c62386341a7a.jpg"
+    },
+    {
+        name:"Indie",
+        slug:"indie",
+        image_background:"https://media.rawg.io/media/games/929/9295e55ce69cf5337c567983cf8b4137.jpeg"
+    },
+    {
+        name:"Massively Multiplayer",
+        slug:"massively-multiplayer",
+        image_background:"https://media.rawg.io/media/games/4e0/4e0e7b6d6906a131307c94266e5c9a1c.jpg"
+    },
+    {
+        name:"Platformer",
+        slug:"platformer",
+        image_background:"https://media.rawg.io/media/games/c40/c40f9f0a3d1b4601a7a44d230c95f126.jpg"
+    },
+    {
+        name:"Puzzle",
+        slug:"puzzle",
+        image_background:"https://media.rawg.io/media/games/a5a/a5abaa1b5cc1567b026fa3aa9fbd828e.jpg"
+    },
+    {
+        name:"Role playing games",
+        slug:"role-playing-games-rpg",
+        image_background:"https://media.rawg.io/media/screenshots/10f/10f97c2b3281cce02200a5f890bcb97a.jpg"
+    },
+    {
+        name:"Racing",
+        slug:"racing",
+        image_background:"https://media.rawg.io/media/games/ff6/ff66ce127716df74175961831ad3a23a.jpg"
+    },
+    {
+        name:"Shooter",
+        slug:"shooter",
+        image_background:"https://media.rawg.io/media/games/34b/34b1f1850a1c06fd971bc6ab3ac0ce0e.jpg"
+    },
+    {
+        name:"Simulation",
+        slug:"simulation",
+        image_background:"https://media.rawg.io/media/games/5f4/5f4780690dbf04900cbac5f05b9305f3.jpg"
+    },
+    {
+        name:"Sports",
+        slug:"sports",
+        image_background:"https://media.rawg.io/media/games/23d/23d78acedbb5f40c9fb64e73af5af65d.jpg"
+    },
+    {
+        name:"Strategy",
+        slug:"strategy",
+        image_background:"https://media.rawg.io/media/games/af7/af7a831001c5c32c46e950cc883b8cb7.jpg"
+    },
+  
+];
+export default categoryList;

@@ -1,28 +1,30 @@
 {
-  "expo": {
-    "name": "GameApp",
-    "slug": "GameApp",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
+    "expo": {
+        "name": "AG Game Centre",
+        "slug": "aggamecentre",
+        "platforms": [
+            "ios",
+            "android",
+            "web"
+        ],
+        "version": "1.1.0",
+        "orientation": "portrait",
+        "icon": "./assets/playstore.png",
+        "android": {
+            "package": "com.aggamecentre.app",
+            "versionCode": 2,
+            "icon": "./assets/playstore.png"
+
+
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "supportsTablet": true
+        }
     }
-  }
 }

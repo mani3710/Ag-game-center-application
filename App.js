@@ -1,19 +1,18 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import RootNav from './src/navigation';
+import {Provider} from 'react-redux';
+import store from './src/Redux/store';
+import Home from './src/components/screens/home';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+    <Provider store={store}>
+    <View style={{flex:1}}>
+      <RootNav/>
+      
     </View>
+    </Provider>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
